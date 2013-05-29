@@ -21,6 +21,10 @@
 		965718501746B6080071EC34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 965718311746B6070071EC34 /* Foundation.framework */; };
 		965718581746B6080071EC34 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 965718561746B6080071EC34 /* InfoPlist.strings */; };
 		9657185B1746B6080071EC34 /* TrainMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9657185A1746B6080071EC34 /* TrainMeTests.m */; };
+		9657186B1746BCC30071EC34 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 9657186A1746BCC30071EC34 /* User.m */; };
+		9657186E1746BCF40071EC34 /* Trainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9657186D1746BCF40071EC34 /* Trainer.m */; };
+		96D1BAB71746D9F400B1CACE /* Schedule.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D1BAB61746D9F400B1CACE /* Schedule.m */; };
+		96D1BABA1746DCE800B1CACE /* Activity.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D1BAB91746DCE800B1CACE /* Activity.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,14 @@
 		965718571746B6080071EC34 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		965718591746B6080071EC34 /* TrainMeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrainMeTests.h; sourceTree = "<group>"; };
 		9657185A1746B6080071EC34 /* TrainMeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrainMeTests.m; sourceTree = "<group>"; };
+		965718691746BCC30071EC34 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		9657186A1746BCC30071EC34 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		9657186C1746BCF40071EC34 /* Trainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trainer.h; sourceTree = "<group>"; };
+		9657186D1746BCF40071EC34 /* Trainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trainer.m; sourceTree = "<group>"; };
+		96D1BAB51746D9F400B1CACE /* Schedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Schedule.h; sourceTree = "<group>"; };
+		96D1BAB61746D9F400B1CACE /* Schedule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Schedule.m; sourceTree = "<group>"; };
+		96D1BAB81746DCE800B1CACE /* Activity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Activity.h; sourceTree = "<group>"; };
+		96D1BAB91746DCE800B1CACE /* Activity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Activity.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +125,14 @@
 			isa = PBXGroup;
 			children = (
 				9657183E1746B6070071EC34 /* TrainerAppDelegate.h */,
+				965718691746BCC30071EC34 /* User.h */,
+				9657186A1746BCC30071EC34 /* User.m */,
+				9657186C1746BCF40071EC34 /* Trainer.h */,
+				9657186D1746BCF40071EC34 /* Trainer.m */,
+				96D1BAB51746D9F400B1CACE /* Schedule.h */,
+				96D1BAB61746D9F400B1CACE /* Schedule.m */,
+				96D1BAB81746DCE800B1CACE /* Activity.h */,
+				96D1BAB91746DCE800B1CACE /* Activity.m */,
 				9657183F1746B6070071EC34 /* TrainerAppDelegate.m */,
 				965718361746B6070071EC34 /* Supporting Files */,
 			);
@@ -264,6 +284,10 @@
 			files = (
 				9657183C1746B6070071EC34 /* main.m in Sources */,
 				965718401746B6070071EC34 /* TrainerAppDelegate.m in Sources */,
+				9657186B1746BCC30071EC34 /* User.m in Sources */,
+				9657186E1746BCF40071EC34 /* Trainer.m in Sources */,
+				96D1BAB71746D9F400B1CACE /* Schedule.m in Sources */,
+				96D1BABA1746DCE800B1CACE /* Activity.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +462,7 @@
 				965718601746B6080071EC34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		965718611746B6080071EC34 /* Build configuration list for PBXNativeTarget "TrainMeTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +471,7 @@
 				965718631746B6080071EC34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
